@@ -14,9 +14,8 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-
 #go 
-vendor
+vendor/
 
 #go mod
 go.sum
@@ -31,3 +30,11 @@ service/*/rpc/user/
 
 #swagger
 *.json
+
+#tools
+.vscode
+.idea
+.vs
+
+#mac os x
+.DS_Store
